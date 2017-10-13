@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Conversor de Números Romanos</string>
+    <string name="tv.main.titulo">Número Decimal</string>
+    <string name="tv.main.acercade">Acerca de</string>
+    <string name="tv.dialogo.msg">Esta aplicación fué desarrollada por:\n\n<u><b>Gabriela Miranda Lira</b></u></string>
+    <string name="tv.dialogo.btn">Aceptar</string>
+</resources>

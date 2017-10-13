@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightPrimary"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.miramicodigo.conversordenumerosromanos.SplashscreenActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_below="@id/ivLogo"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorSecondaryText"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
